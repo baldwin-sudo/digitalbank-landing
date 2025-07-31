@@ -21,7 +21,7 @@ export default function Hero() {
       {/* right */}
       <div
         style={{
-          backgroundImage: `url("/public/bg-intro-desktop.svg")`,
+          backgroundImage: `url("/bg-intro-desktop.svg")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
