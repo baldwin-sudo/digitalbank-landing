@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <>
       {/* Main Navbar */}
-      <div className="fixed z-50 backdrop-blur-lg bg-white/80 top-0 left-0 w-full shadow-black flex justify-around items-center py-3">
+      <div className="fixed z-50 backdrop-blur-lg bg-white/85 top-0 left-0 w-full  shadow-xs flex justify-around items-center py-3">
         {/* brandLogo */}
         <div className="mr-auto px-10 lg:px-0 lg:mx-0">
           <img src={brandLogo} alt="DigitalBank logo" />
