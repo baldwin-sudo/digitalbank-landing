@@ -2,7 +2,10 @@ import mockup from "./images/image-mockups.png";
 
 export default function Hero() {
   return (
-    <div id="hero" className="flex flex-col-reverse lg:flex-row bg-gray-50">
+    <div
+      id="hero"
+      className="flex flex-col-reverse lg:h-screen lg:flex-row bg-gray-50"
+    >
       {/* left */}
       <div className="flex flex-col items-start justify-center xl:justify-start mt-10 xl:mt-40 lg:items-start gap-10 w-full xl:w-1/2 px-10 lg:p-20 lg:px-30 ">
         <h1 className="text-5xl text-neutral-800 text-wrap">
