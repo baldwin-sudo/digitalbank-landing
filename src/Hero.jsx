@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col-reverse lg:flex-row">
       {/* left */}
-      <div className="flex flex-col items-start justify-center xl:justify-start mt-10 xl:mt-40 lg:items-start gap-10 w-full xl:w-1/2 px-10 lg:p-20 lg:px-30 xl:px-40">
+      <div className="flex flex-col items-start justify-center xl:justify-start mt-10 xl:mt-40 lg:items-start gap-10 w-full xl:w-1/2 px-10 lg:p-20 lg:px-30 ">
         <h1 className="text-5xl text-neutral-800 text-wrap">
           Next generation digital banking
         </h1>

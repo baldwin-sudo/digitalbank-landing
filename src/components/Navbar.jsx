@@ -23,7 +23,7 @@ export default function Navbar() {
           onClick={handleMenuClick}
           className={clsx(
             isMenuOpen ? "hidden" : "block",
-            "w-8 h-8 lg:hidden z-10 "
+            "w-8 h-4 lg:hidden z-10 "
           )}
           alt=""
         />
@@ -32,7 +32,7 @@ export default function Navbar() {
           onClick={handleMenuClick}
           className={clsx(
             isMenuOpen ? "block" : "hidden",
-            "w-8 h-8 lg:hidden "
+            "w-6 h-6 lg:hidden "
           )}
           alt=""
         />
