@@ -1,4 +1,3 @@
-import bg from "./images/bg-intro-desktop.svg";
 import mockup from "./images/image-mockups.png";
 
 export default function Hero() {
@@ -22,13 +21,13 @@ export default function Hero() {
       {/* right */}
       <div
         style={{
-          backgroundImage: `url(${bg})`,
+          backgroundImage: `url("/public/bg-intro-desktop.svg")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
-        className="w-full flex justify-center items-center"
+        className="w-full bg-center flex justify-center items-center"
       >
-        <img src={mockup} className="w-full max-w-[600px]" alt="App mockups" />
+        <img src={mockup} className="w-full  max-w-[600px]" alt="App mockups" />
       </div>
     </div>
   );
